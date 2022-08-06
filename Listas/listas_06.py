@@ -19,6 +19,9 @@ Obs: o Método .append não junta listas, mas adiciona um valor no final da list
 produtos = ['apple tv', 'mac', 'iphone x', 'iphone 11', 'IPad', 'apple watch', 'mac book', 'airpods']
 novos_produtos = ['iphone 12', 'ioculos']
 
+todos_produtos = produtos + novos_produtos
+print(todos_produtos)
+
 """### Cuidado:
 
 - [1] + [2] não é a mesma coisa que 1 + 2, então cuidado sempre com o formato dos valores na hora de fazer operações.
